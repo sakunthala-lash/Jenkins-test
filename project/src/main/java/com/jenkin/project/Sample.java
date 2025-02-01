@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Sample{
 
 	@GetMapping("/home")
-	public ResponseEntity<Void> getHomee() {
+	public ResponseEntity<Void> getHome() {
 		return ResponseEntity.status(HttpStatus.OK).build();
 	}
 }
