@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Sample{
 
 	@GetMapping("/dashboard")
-	public ResponseEntity<Void> getDashboard() {
+	public ResponseEntity<Void> getDashboardDetails() {
 		return ResponseEntity.status(HttpStatus.OK).build();
 	}
 }
