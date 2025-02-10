@@ -10,5 +10,4 @@ public class SampleTest {
     public void testGetHomeSuccess() throws Exception {
        
     }
-    
 }
