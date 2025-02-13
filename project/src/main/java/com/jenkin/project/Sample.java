@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/sample")
 public class Sample{
 
-	@GetMapping("/dashboard")
-	public ResponseEntity<Void> getDashboardDetails() {
+	@GetMapping("/home")
+	public ResponseEntity<Void> getHomes() {
 		return ResponseEntity.status(HttpStatus.OK).build();
 	}
 }
+
